@@ -1,0 +1,20 @@
+a{
+    color: green;
+    text-decoration: none;
+}
+a:link{
+    color: chocolate;
+}
+
+a:visited{
+    color: brown;
+}
+a:hover{
+    background-color: aqua;
+    text-decoration: underline;
+}
+.title{
+    color: red;
+    cursor: crosshair;
+    font-weight: 900;
+}

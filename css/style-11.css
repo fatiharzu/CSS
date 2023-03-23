@@ -1,0 +1,7 @@
+ul.lorem-list{
+
+    list-style-type: '⚽';
+    list-style-position: outside;
+    background-color: antiquewhite; /*  satir aralarinda bosluk almak icin*/
+    line-height: 2rem; 
+}
