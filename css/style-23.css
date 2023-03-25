@@ -1,0 +1,34 @@
+.login-form input[type="text"]{
+background-color: aqua;
+border: none;
+padding: 0.5px 10px;
+}
+.login-form input[type="text"]:focus{
+    background-color: brown;    
+}
+
+.chk-menu:checked{
+    outline: 3px solid red;
+}
+a:hover{
+    background-color: blueviolet;
+}
+a:active{
+    background-color: blue;
+}
+ul.liste li:first-child{
+    font-weight: bold;
+}
+
+ul.liste li:last-child{
+    font-style: italic;
+}
+ul.liste li:nth-child(3){
+    color: red;
+}
+.price-list tr:nth-child(odd){
+    background-color: beige;
+}
+.price-list tr:nth-child(3n+1){
+    background-color: rgb(111, 146, 160);
+}
