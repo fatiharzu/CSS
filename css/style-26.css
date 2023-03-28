@@ -1,0 +1,22 @@
+nav.menu li{
+    color: red;
+}
+nav.menu nav.menu ul  ul > li {
+    color: blue;
+}
+nav.menu ul ul li:last-child{
+    color: blueviolet;
+    text-decoration: underline;
+}
+nav.menu + p{
+    font-size: 2rem;
+}
+
+nav.menu ~ p{
+    color: aqua;
+}
+
+nav.menu > ul > li:nth-child(3)~li {
+    text-decoration: line-through;
+    color: yellowgreen;
+}

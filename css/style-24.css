@@ -14,3 +14,20 @@ p.about::first-line{
 color: blue;
 font-size: 2rem;
 }
+.title::before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 25px;
+    background-color: red;
+    margin-right: 10px;
+
+}
+.title::after{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 25px;
+    background-color: red;
+    margin-right: 10px;    
+}
