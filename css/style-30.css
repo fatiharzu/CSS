@@ -1,0 +1,34 @@
+/*Bu yapının kullanım amacı istediğimiz şeyi istediğimiz yere yerleştirmek ve responsive bir yapı oluşturmak -->
+    <!-- Bu yapı ile amaçlanan farklı ekran tiplerinde aynı content in ekran boyutundan dolayı görünümünde bir deformasyona uğramamasını sağlamak */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* ortada , basa ya da sona getiriyor*/
+   align-items: stretch;
+    border: 1px solid red;
+    height: 50vh;
+}
+.container div{
+    /*width: 50px;
+   /* 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+    
+}
+.container div:nth-child(1){
+    background-color: aqua;
+}
+.container  div:nth-child(2){
+    background-color: red;
+}
+.container  div:nth-child(3){
+    background-color: greenyellow;
+}
+.container  div:nth-child(4){
+    background-color: brown;
+}
+.container  div:nth-child(5){
+    background-color: blueviolet;
+}
