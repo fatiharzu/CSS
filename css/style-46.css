@@ -1,0 +1,60 @@
+:root{
+    --color1: #FF6000;
+    --color2: rgb(72, 72, 72);
+    --color3: rgb(195, 101, 43);
+    --color4: rgb(189, 173, 157);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito" sans-serif;
+}
+main{
+    padding-left: 50px ;
+}
+nav.left-menu{
+    background-color: var(--color1);
+    position: absolute;
+    left: -130px;
+    top: 0;
+    bottom: 0;  
+    transition: left 0.7s;  
+}
+nav.left-menu .title{
+    background-color: var(--color2);
+    padding: 10px;
+    color: var(--color4);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+nav.left-menu .title label{
+    cursor: pointer;
+    transition: transform 1s;
+}
+nav.left-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 50px 0 20px;
+    line-height: 30px;
+}
+nav.left-menu ul a{
+    text-decoration: none;
+    color: var(--color2);
+    font-weight: 600;
+    display: block;
+    transition: transform 0.4s;
+}
+nav.left-menu ul a:hover{
+    color: var(--color4);
+    transform: translateX(10px);
+}
+.chk-menu{
+    display: none;
+}
+.chk-menu:checked + nav{
+    left: 0;
+}
+.chk-menu:checked + nav label{
+    transform: rotate(180deg);
+}
